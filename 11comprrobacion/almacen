@@ -1,0 +1,80 @@
+opciones 
+carrusel https://codepen.io/ChristopherRobison/pen/gOexrrm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/header.jpg) center/cover no-repeat fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1.2rem;
+    left: 0;
+    right: 0;
+    top: -15px;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navbar-brand {
+    color: rgb(244, 244, 244);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 700px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+    padding-top: 1rem;
+}
+
+.navbar-nav {
+    padding: 1.8rem 0 0.2rem 0;
+    text-align: center;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem 0.4rem;
+    transition: opacity 0.5s ease;
+    letter-spacing: 2px;
+}
+
+.navbar-nav a:hover {
+    opacity: 0.7;
+}
